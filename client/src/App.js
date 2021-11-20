@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import {useState, useEffect} from 'react';
-
+import Home from './Pages/Home'
 
 export default function App() {
 
@@ -26,7 +26,7 @@ async function getRoutes(){
 getRoutes()
   return (
     <div className="App">
-   {data}
+     <Home/>
     </div>
   );
 }
